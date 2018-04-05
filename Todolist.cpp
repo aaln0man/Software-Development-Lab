@@ -9,8 +9,6 @@ struct todo
 	char time[250], task[250];
 };
 
-
-
 void addTask()
 {
 	ofstream fileWrite("tasks.txt", ios::app | ios::binary);
@@ -84,3 +82,5 @@ int main()
 	}
 	return 0;
 }
+
+
